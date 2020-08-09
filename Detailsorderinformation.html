@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detailsorderinformation</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+<style>
+@font-face {
+font-family: Arabic;
+src: url(TheSans-Plain\ \(1\).otf);
+}
+body {
+font-family: Arabic !important;
+}
+
+.Nav {
+margin-bottom: 0;
+background-image: url('photo-of-person-walking-on-desert-during-evening-1987097.jpg');
+height: 100%;
+background-position: center;
+background-size: cover;
+}
+.section-height {
+height: 234px
+}
+.section-title {
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 36px #00000029;
+opacity: 1;
+}
+.datebox{
+width: 565px;
+height: 46px;
+background: transparent url('img/Rectangle 61.png') 0% 0% no-repeat padding-box;
+border: 1px solid #B4B4B4;
+border-radius: 8px;
+opacity: 1;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+.textbox{
+text-align: center;
+letter-spacing: 0.19px;
+color: #818181;
+padding-top: 10px;   
+}
+.line-cross {
+text-align: center;
+border-bottom: 1px solid #00000073;
+line-height: 0.1em;
+margin: 10px;
+margin-left: 45px;
+margin-right: 45px;
+margin-top: 50px;
+}
+
+.line-cross span { 
+background:#fff; 
+padding:0 200px; 
+}
+.btn-click {
+    width: 107px;
+    height: 49px;
+    background: #898989 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 39px;
+    font-size: 17px;
+    border-color: #898989;
+    margin-top: 18px;
+    margin-left: 211px;
+}
+.calendar-ico {
+background:url('calendar.svg');
+}
+.ico {
+width: 38px;
+}
+.p11- {
+margin-bottom: -9px;
+
+}
+.p11-:nth-child(1) {
+    margin-left: 21px;
+}
+
+.p11-:nth-child(3) {
+    margin-left: 59px;
+}
+.btn-english {
+opacity: 1;
+background: #fff;
+color: grey;
+border-radius: 22px;
+width: 95px;
+border-color: #fff;
+margin-top: 20px;
+margin-left: 10px;
+}
+.jumbotron {
+background-color: #fff;
+}
+h4{
+font-size: 1.2rem;
+}
+
+.threechoice{  
+text-align: center;
+}
+.ashegerway{   
+float: right;
+width: 400px;
+height: 9px;
+/* text-align: center; */
+letter-spacing: 0.23px;
+color: #3C3C3C;
+opacity: 1;
+margin-right: 142px;
+margin-top: 105px;
+}
+.vl {
+border-left: 2px solid #E5E5E5;
+height: 500px;
+position: absolute;
+left: 50%;
+margin-left: -3px;
+margin-top: 80px;
+}
+.countbox{
+text-align: center;
+font: Bold 16px;
+letter-spacing: 0px;
+color: #3C3C3C;
+opacity: 1;
+}
+.logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+margin-top: 300px;
+margin-bottom: 60px;
+}
+.vertical-line{
+display: inline-block;
+border-left: 1px solid #ccc;
+margin: 0 10px;
+height: 32px;
+}
+.board4{
+top: 672px;
+left: 735px;
+width: 315px;
+height: 212px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 6px #0000001D;
+border-radius: 23px;
+opacity: 1;
+float: right;
+margin-right: -335px;
+margin-top: 200px;
+padding: 20px;
+}
+.h{
+text-align: right;
+letter-spacing: 0.18px;
+color: #3C3C3C;
+opacity: 1;
+/* direction: rtl; */
+font-size: 9px;
+margin-top: 0rem;
+padding-right: 21px;
+float: right;
+
+}
+.total{
+text-align: right;
+letter-spacing: 0.18px;
+color: #3C3C3C;
+opacity: 1;
+/* direction: rtl; */
+font-size: 9px;
+margin-top: -1rem;
+padding-right: 21px;
+}
+.CompleteOrder{
+text-align: center;
+font: Plain 14px;
+letter-spacing: 0px;
+color: #3C3C3C;
+opacity: 1;
+}
+.codebox{
+width: 257px;
+height: 40px;
+background: transparent url('img/Rectangle 61.png') 0% 0% no-repeat padding-box;
+border: 1px solid #B4B4B4;
+border-radius: 8px;
+opacity: 1;
+color: #E5E5E5;
+text-align: center;
+
+}
+.inforder{
+    width: 600px;
+    height: 35px;
+    text-align: right;
+    font: Bold 21px/35px;
+    letter-spacing: 0.23px;
+    color: #3C3C3C;
+    opacity: 1;
+    padding: 109px;
+    margin-left: 138px;
+    margin-top: -10px;
+}
+.firstname{
+text-align: left;
+color: #3C3C3C;
+margin-left: 550px;
+}
+.Email{
+text-align: left;
+color: #3C3C3C;
+margin-left: 522px;  
+}
+.Phone{
+text-align: left;
+color: #3C3C3C;
+margin-left:582px;
+}
+.infobox{
+width: 257px;
+height: 26px;
+background: transparent url('img/Rectangle 61.png') 0% 0% no-repeat padding-box;
+border: 1px solid #B4B4B4;
+border-radius: 8px;
+opacity: 1;
+margin-left: 375px;
+}
+.copebox{
+width: 257px;
+height: 26px;
+border: 1px solid #B4B4B4;
+border-radius: 8px;
+opacity: 1;
+background-color: #B4B4B4;
+color: #fff;
+margin-left: 376px;
+margin-top: 40px;
+text-align: center;
+}
+.infobox2{
+    top: 1161px;
+    left: 175px;
+    width: 931px;
+    height: 292px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 13px #0000001D;
+    border-radius: 23px;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.info{
+text-align: center;
+letter-spacing: 0px;
+color: #3C3C3C;
+opacity: 1;
+}
+.F1{
+text-align: right;
+letter-spacing: 0px;
+color: #3C3C3C;
+opacity: 1;
+margin-right: 38px;
+}
+.B1{
+top: 1248px;
+left: 204px;
+width: 873px;
+height: 26px;
+background: transparent url('img/Rectangle 61.png') 0% 0% no-repeat padding-box;
+border: 1px solid #B4B4B4;
+border-radius: 8px;
+opacity: 1;
+margin-left: auto;
+margin-right: auto;
+}
+.pay{
+top: 2384px;
+left: 518px;
+width: 245px;
+height: 42px;
+background: #000000 0% 0% no-repeat padding-box;
+border-radius: 23px;
+opacity: 1;
+margin-left: auto;
+margin-right: auto;
+margin-top: 70px;
+}
+.P1{
+color: #ffff;
+text-align: center;
+padding: 11px;
+}
+.payment{
+    width: 45px;
+    height: 44px;
+    opacity: 1;
+    margin-left: 610px;
+    margin-top: 72px;
+    display: flex;
+}
+footer{
+left: 0px;
+width: 1281px;
+height: 113px;
+background: #E5E5E5 0% 0% no-repeat padding-box;
+padding: 50px;
+position: relative;
+display: block;
+
+}
+
+.footertext{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+</style>
+<body>
+    <section class="section-height">
+        <div class="Nav">
+            <button class="btn btn-primary btn-english"> English</button>
+          <div class="container text-center">
+               
+          </div>
+        </div>
+    </section>
+
+    <section class="section-title">
+        <div class="jumbotron">
+        <div class="container text-center">
+            <h3>  الطريق إلى قرية أشيقر التراثية</h3>
+            <div class="">
+                <p class="p11-">
+                ٢٣مايو٢٠٢٠<img  src="calendar.svg" class='ico'></i> 
+                </p>
+                <p class="p11-">
+                   
+                    ٤:٠٠م- ٩:٠٠م
+                <img  src="clock.svg" class='ico'></i> 
+                </p>
+                <p class="p11-">
+                    الرياض<img  src="location.svg" class='ico'></i> 
+                </p>
+                <br>
+ 
+            </div>
+        </div>
+        </div>
+        <div class="threechoice">
+            التذاكر
+            <span class="vertical-line"></span>
+            التفاصيل
+            <span class="vertical-line"></span>
+            الموقع
+        </div> 
+        </section>
+
+        <h2 class="line-cross"><span>تفاصيل معلومات الطلب</span></h2>
+
+        <div class="ashegerway">
+            <h3>VIPالطريق إلى اشيقر الثقافية </h3>
+        </div>
+        <section>
+            <div class="board4">
+             <div class="countbox">
+                    <h4>ملخص الطلب</h4>
+             </div>
+             <div>
+                <div class="h">
+                    <h6> يوم واحد X٢</h6> 
+                </div>
+                <div clas="price">
+                    <p>1350.00</p>
+                </div>
+            </div>
+             <hr class="new2">
+
+                    <div class="h">
+                        <h6>المجموع</h6> 
+                    </div>
+                    <div clas="price">
+                        <p>2700.00</p>
+                    </div>
+                    <div class="h">
+                        <p style="color: #B4B4B4; font-size: small; margin-top: -15px;"> الضريبة</p> 
+                    </div>
+                    <div clas="price">
+                        <p style="color: #B4B4B4; font-size: small; margin-top: -15px;">270.00</p>
+                    </div>
+                    <div class="h">
+                        <h6>المبلغ الاجمالي</h6> 
+                    </div>
+                    <div clas="price">
+                        <p>2679.00</p>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="CompleteOrder">
+                        <p>لاستكمال الطلب الرجاء تعبئة المعلومات</p>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="codebox">
+                        <p>أدخل رمز القسيمة</p>
+                    </div>
+        </section>
+
+        <div class="vl"></div>
+        <section>
+                            <div class="inforder">
+                            <h3>معلومات الطلب</h3>
+                         </div>
+                             <div class="firstname">
+                             <p>الاسم الأول</p>
+                            </div>
+                             <div class="infobox"></div>
+                            <br>
+                            <div class="firstname">
+                                <p>الاسم الاخير</p>
+                            </div>
+                            <div class="infobox"></div>
+                            <br>
+                            <div class="Email">
+                                <p>البريد الإلكتروني</p>
+                               </div>
+                                <div class="infobox"></div>
+                               <br>
+                               <div class="Phone">
+                                <p>الجوال</p>
+                               </div>
+                                <div class="infobox"></div>
+                               
+        </section> 
+        <div class="copebox">
+            <p>نسخ تفاصيل المشتري لجميع حاملي التذكرة</p>
+        </div>
+
+        <h2 class="line-cross"><span>معلومات حامل التذكرة</span></h2>
+<section>
+     <div class="infobox2">
+          <div class="info">
+          <h6>معلومات حامل التذكرة (1)</h6>
+         </div>
+                 <div class="F1">
+                 <p>الاسم الأول</p>
+                </div>
+                     <div class="B1"></div>
+                     <br>
+                     <div class="F1">
+                        <p>الاسم الأخير</p>
+                       </div>
+                            <div class="B1"></div>
+                            <br>
+                            <div class="F1">
+                                <p>البريد الالكتروني</p>
+                               </div>
+                                    <div class="B1"></div>
+     </div>
+</section>
+
+<section>
+    <div class="infobox2">
+         <div class="info">
+         <h6>معلومات حامل التذكرة (2)</h6>
+        </div>
+                <div class="F1">
+                <p>الاسم الأول</p>
+               </div>
+                    <div class="B1"></div>
+                    <br>
+                    <div class="F1">
+                       <p>الاسم الأخير</p>
+                      </div>
+                           <div class="B1"></div>
+                           <br>
+                           <div class="F1">
+                               <p>البريد الالكتروني</p>
+                              </div>
+                                   <div class="B1"></div>
+    </div>
+</section>
+
+<section>
+    <div class="infobox2">
+         <div class="info">
+         <h6>معلومات حامل التذكرة (3)</h6>
+        </div>
+                <div class="F1">
+                <p>الاسم الأول</p>
+               </div>
+                    <div class="B1"></div>
+                    <br>
+                    <div class="F1">
+                       <p>الاسم الأخير</p>
+                      </div>
+                           <div class="B1"></div>
+                           <br>
+                           <div class="F1">
+                               <p>البريد الالكتروني</p>
+                              </div>
+                                   <div class="B1"></div>
+    </div>
+</section>
+
+
+<h2 class="line-cross"><span>تفاصيل الدفع</span></h2>
+
+
+
+<div class="pay">
+    <div class="P1">
+        <h6>Pay</h6>
+    </div>
+
+</div>
+<p style="color:#3C3C3C; text-align: center;margin-top: 20px;">طرق دفع أخرى</p>
+<div class="payment">
+    
+    <img src="Visa.png"/>
+    
+    <img src="made.png"/>
+    
+    <img src="mastercard.png"/>
+</div>
+
+        <div class="logo">
+            <img src="logo الطرق العربية-03.png" alt="logo" width="100%">
+            </div>
+            </div>
+            <!-- Footer -->
+            
+            <footer class="container-fluid text-center">
+                <div class="footertext">
+                <p>Powered By <span style="color: #2B4876;">EASYTICKET</span> </p>
+                </div>
+            </div>
+            
+              </footer>
+            </body>
+            </html>
